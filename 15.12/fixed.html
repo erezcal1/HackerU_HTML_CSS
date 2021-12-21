@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "spartan" sans-serif;
+      }
+      nav {
+        position: fixed;
+        height: 100vh;
+        width: 150px;
+        background-color: #0000005f;
+        color: honeydew;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+      }
+      a {
+        color: honeydew;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        min-height: 60vh;
+        justify-content: space-around;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+      div {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        font-family: sans-serif;
+        color: honeydew;
+      }
+      #a {
+        background-color: green;
+      }
+      #b {
+        background-color: rgb(149, 26, 153);
+      }
+      #c {
+        background-color: rgb(55, 153, 189);
+      }
+      #d {
+        background-color: rgb(184, 153, 67);
+      }
+      #e {
+        background-color: rgb(51, 39, 160);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#a">a</a></li>
+        <li><a href="#b">b</a></li>
+        <li><a href="#c">c</a></li>
+        <li><a href="#d">d</a></li>
+        <li><a href="#e">e</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="a">a</div>
+      <div id="b">b</div>
+      <div id="c">c</div>
+      <div id="d">d</div>
+      <div id="e">e</div>
+    </main>
+  </body>
+</html>

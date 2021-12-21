@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Family</title>
+    <!-- first option of css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- second option css -->
+    <style>
+      /*Link -> body -> style(h2) -> h2 // The last one is the one that choose
+      css style choose*/
+      body{
+        color: indigo;
+        border: dashed ;
+      }
+      h2{
+        color: green;
+      }
+      p{
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- third option css -->
+      <p style="font-size: 30px; margin-bottom: 0;">Here is</p>
+      <h1>My Family</h1>
+      <p>get to know us</p>
+    </div>
+    <div class="mufasa" id="simba">
+      <h2>Here We Are</h2>
+      <figure>
+        <img width="600px" src="../24.11/family.jpg" alt="My family" />
+        <figcaption>My Family</figcaption>
+      </figure>
+    </div>
+    <div class="mufasa" id="d3">
+      <h2>Members</h2>
+      <h3>Meir</h3>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <h3>Nadav</h3>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div>
+      <h2>Favorite Food</h2>
+      <table class="mufasa solid-border">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Favorite Food</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Meir</th>
+            <td>36</td>
+            <td>Shawarma</td>
+          </tr>
+          <tr>
+            <th>Nadav</th>
+            <td>6</td>
+            <td>Pizza</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h2>Family Video</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/FHaObkHEkHQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div>
+      <h2>The House</h2>
+      <pre>
+                    )                              (
+                      (                                 )
+              ________[]_                              []
+            /^=^-^-^=^-^\                   /^~^~^~^~^~^~\
+            /^-^-^-^-^-^-^\                 /^ ^ ^  ^ ^ ^ ^\
+          /__^_^_^_^^_^_^_\               /_^_^_^^_^_^_^_^_\
+            |  .==.       |       ___       |        .--.  |
+          ^^|  |LI|  [}{] |^^^^^ /___\ ^^^^^|  [}{]  |[]|  |^^^^^
+          &&|__|__|_______|&&   ." | ".   88|________|__|__|888
+              ====             (o_|_o)              ====
+                ====             u   u              ==== 
+        </pre
+      >
+    </div>
+    <div>
+      <h2>Join Us</h2>
+      <form>
+        <label>Your name: <input type="text" maxlength="15" /> </label>
+        <br /><br />
+        <label for="age">Your Age</label>
+        <input id="age" type="number" max="80" min="10" />
+        <label for="terms"></label>Agree <a href="terms.html" target="_blank">terms</a></label>
+        <br>
+        <input type="checkbox" />
+        <br />
+        <button type="submit">Join!</button>
+      </form>
+    </div>
+  </body>
+</html>

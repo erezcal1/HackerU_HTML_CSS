@@ -1,0 +1,34 @@
+body {
+  background-color: lightcoral;
+}
+body > header,
+footer {
+  padding: 1px;
+  text-align: center;
+  height: 100px;
+  background-color: lightblue;
+  color: rgb(46, 65, 46);
+}
+aside {
+  background-color: lightskyblue;
+  width: 20%;
+  float: right;
+}
+.s1 {
+  padding: 1px;
+  background-color: lightgrey;
+}
+article {
+  margin: 10px 0;
+  border: solid 2px yellow;
+  border-radius: 10px;
+}
+main {
+  padding: 1px;
+  height: 390px;
+  width: 78%;
+  background-color: lightpink;
+}
+footer {
+  font-size: 50px;
+}

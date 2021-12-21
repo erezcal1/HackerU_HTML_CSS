@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>semantics-2</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body > header,
+      footer {
+        height: 80px;
+        background-color: rgb(102, 102, 102);
+        font-size: 40px;
+        text-align: center;
+        color: white;
+      }
+      nav {
+        padding: 1px 0;
+        background-color: rgb(218, 217, 216);
+      }
+      nav li {
+        display: inline;
+        margin: 10px;
+      }
+      section {
+        background-color: rgb(118, 212, 243);
+        padding: 20px;
+      }
+      section:first-child {
+        background-color: lightblue;
+      }
+      article {
+        border-style: solid;
+        border-color: lightcoral;
+        border-width: 4px;
+        border-radius: 10px;
+      }
+      /* main {
+        width: 60%;
+      } */
+      aside {
+        width: 250px;
+        flex-shrink: 0;
+      }
+      .conteiner {
+        display: flex;
+      }
+      footer {
+        height: 100px;
+      }
+      @media screen and (max-width: 767px) {
+        body {
+          color: red;
+        }
+        .conteiner {
+          display: initial;
+        }
+        aside {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 737px) {
+        body {
+          color: blue;
+        }
+      }
+      @media screen and (max-width: 707px) {
+        body {
+          color: pink;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- site header -->
+    <header>header</header>
+    <!-- Site Navigation -->
+    <nav>
+      <!-- nav>ul>(li>a[href=#]{Page $})*4 -->
+      <ul>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li><a href="#">Page 4</a></li>
+      </ul>
+    </nav>
+    <!-- Aside Content -->
+    <div class="conteiner">
+      <!-- Page content -->
+      <main>
+        <section class="s1">
+          <h1>Page Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Officiis eos sequi modi. Rem iste
+            ipsum cumque, sequi minima ipsam saepe? Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Dolore, eum?
+          </p>
+        </section>
+        <section class="s2">
+          <h2>Articles</h2>
+          <article>
+            <header><h3>Artical H3</h3></header>
+            <section><p>Lorem ipsum dolor sit amet.</p></section>
+            <section>
+              <ul>
+                <li><a href="#">FaceBook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </section>
+          </article>
+          <article>
+            <header><h3>Artical H3</h3></header>
+            <section><p>Lorem ipsum dolor sit amet.</p></section>
+            <section>
+              <ul>
+                <li><a href="#">FaceBook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </section>
+          </article>
+        </section>
+      </main>
+      <aside>
+        <section>
+          <h2>Share</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Email</a></li>
+          </ul>
+        </section>
+        <section class="recommended">
+          <h2>Recommended</h2>
+          <ul>
+            <li>
+              <article>
+                <h3>
+                  <a href="#">Related article</a>
+                </h3>
+                <p>Article description</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3>
+                  <a href="#">Related article</a>
+                </h3>
+                <p>Article description</p>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+    <footer>Footer</footer>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        padding: 1px 0;
+        background-color: rgb(218, 217, 216);
+      }
+      nav > ul > li {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+      }
+      li > ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 0.75rem;
+        border-radius: 0.25rem;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+      }
+      li {
+        list-style: none;
+        position: relative;
+      }
+      li:hover > ul {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          item 1
+          <ul>
+            <li>number 1</li>
+            <li>number 2</li>
+            <li>number 3</li>
+            <li>number 4</li>
+          </ul>
+        </li>
+        <li>
+          item 2
+          <ul>
+            <li>number 1</li>
+            <li>number 2</li>
+            <li>number 3</li>
+            <li>number 4</li>
+          </ul>
+        </li>
+        <li>
+          item 3
+          <ul>
+            <li>number 1</li>
+            <li>number 2</li>
+            <li>number 3</li>
+            <li>number 4</li>
+          </ul>
+        </li>
+        <li>
+          item 4
+          <ul>
+            <li>number 1</li>
+            <li>number 2</li>
+            <li>number 3</li>
+            <li>number 4</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

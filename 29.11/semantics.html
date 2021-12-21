@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantics</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        /* margin: 0 auto 0 auto;
+        //margin: 0 auto 0;
+        //margin-top: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto; */
+      }
+      .site-header {
+        background-color: rgb(231, 165, 165);
+      }
+      .navbar {
+        float: right;
+        padding-top: 10px;
+      }
+      .navbar li {
+        display: inline;
+      }
+      aside {
+        float: right;
+      }
+      #hero {
+        color: white;
+        background: url(./photos/panda.jpg) no-repeat center;
+        background-size: cover;
+        padding: 40px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="content">
+        <img
+          style="border-radius: 50%"
+          src="./photos/roster.jpg"
+          alt="Logo"
+          width="100px"
+        />
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="dogs.html">dogs</a>
+            </li>
+            <li>
+              <a href="cats.html">cats</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Add search input -->
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <section>
+          <div id="hero">
+            <h1>Animals</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          </div>
+        </section>
+        <section></section>
+      </div>
+    </main>
+    <footer>
+      <div class="content">
+        <aside>
+          <h2>Latest News</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quas!
+          </p>
+          <h2>Last News</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem?
+          </p>
+        </aside>
+        <div>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="dogs.html">dogs</a>
+            </li>
+            <li>
+              <a href="cats.html">cats</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            <b>Address:</b> St' Yefet, Jaffa. <br />
+            <b>Phone:</b> 03-0302102 <br />
+            <span style="color: rgb(47, 0, 255)"> <b> E-Mail: </b></span
+            ><a href="mailto:office@domain.com">office@domain.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

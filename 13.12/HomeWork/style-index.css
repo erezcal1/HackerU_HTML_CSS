@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+article > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.bigArticle > img {
+  height: 300px;
+  width: 400px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smallArticals {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.smallArticals > article {
+  margin: 10px;
+  position: relative;
+}

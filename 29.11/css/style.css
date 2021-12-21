@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=M+PLUS+1+Code&display=swap");
+
+body {
+  color: blue;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+#simba {
+  background-color: burlywood;
+}
+
+.mufasa {
+  background-color: darkgoldenrod;
+  border: dashed;
+}
+
+div {
+  background-color: yellow;
+}
+
+.solid-border {
+  border: solid;
+}

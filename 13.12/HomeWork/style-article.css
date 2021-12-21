@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smallArticals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+article > img,
+a > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
