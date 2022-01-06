@@ -1,0 +1,27 @@
+//Nesting nav content
+/*Nesting nav content look aty main css file*/
+
+nav {
+  width: $base_Width;
+  height: 40px;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: #639;
+      display: block;
+      padding: 5px 15px;
+      text-align: center;
+
+      &:hover {
+        background-color: #639;
+        color: #fc0;
+      }
+    }
+  }
+}

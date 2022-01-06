@@ -1,0 +1,53 @@
+button {
+  margin: 10px;
+  font-size: 1.5rem;
+  background-color: hotpink;
+  color: black;
+  border-radius: 8px;
+  outline: 0;
+  padding: 10px 15px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.cta {
+  @extend button;
+  width: 400px;
+  text-align: center;
+}
+
+%box {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  @extend %box;
+}
+
+.box2 {
+  @extend %box;
+}
+
+.box3 {
+  @extend %box;
+}
+
+.box4 {
+  @extend %box;
+}
+
+.box5 {
+  @extend %box;
+}

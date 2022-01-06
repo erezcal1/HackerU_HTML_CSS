@@ -1,0 +1,99 @@
+header {
+  background-color: #bba960;
+  padding: 20px;
+  width: 80vw;
+}
+
+header h1,
+section h2 {
+  font-size: 1.4rem;
+  color: teal;
+  font-family: georgia;
+}
+
+section {
+  width: 80vw;
+  padding: 20px;
+  background-color: #bba960;
+}
+
+section p {
+  font-size: 1.2rem;
+  font-family: georgia;
+  color: teal;
+}
+
+/*Nesting nav content look aty main css file*/
+nav {
+  width: 80vw;
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #639;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+nav ul a:hover {
+  background-color: #639;
+  color: #fc0;
+}
+
+button, .cta {
+  margin: 10px;
+  font-size: 1.5rem;
+  background-color: hotpink;
+  color: black;
+  border-radius: 8px;
+  outline: 0;
+  padding: 10px 15px;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover, .cta:hover {
+  -webkit-box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta {
+  width: 400px;
+  text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

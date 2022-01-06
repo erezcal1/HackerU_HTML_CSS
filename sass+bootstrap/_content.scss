@@ -1,0 +1,24 @@
+header {
+  background-color: $base_Background_Color;
+  padding: $base_Padding;
+  width: $base_Width;
+}
+
+header h1,
+section h2 {
+  font-size: $base_Heading;
+  color: $base_Text_Color;
+  font-family: $base_Font;
+}
+
+section {
+  width: $base_Width;
+  padding: $base_Padding;
+  background-color: $base_Background_Color;
+}
+
+section p {
+  font-size: $base_Font_Size;
+  font-family: $base_Font;
+  color: $base_Text_Color;
+}
