@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+p {
+  font-size: 1em;
+  text-align: justify;
+  padding: 20px;
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-column-rule: 1px dashed #000;
+          column-rule: 1px dashed #000;
+  width: 80vw;
+  background-color: #ccc;
+}
+
 header {
   background-color: #bba960;
   padding: 20px;
@@ -58,7 +73,7 @@ nav ul a:hover {
 button, .cta {
   margin: 10px;
   font-size: 1.5rem;
-  background-color: hotpink;
+  background-color: navy;
   color: black;
   border-radius: 8px;
   outline: 0;
@@ -70,6 +85,7 @@ button, .cta {
 button:hover, .cta:hover {
   -webkit-box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
           box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: #1a1aff;
 }
 
 .cta {
@@ -95,5 +111,75 @@ button:hover, .cta:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.boxm1 {
+  font-family: 'Island Moments', cursive;
+  width: 100px;
+  height: 200px;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+.boxm2 {
+  font-family: 'Island Moments', cursive;
+  width: 350px;
+  height: 70px;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: magenta;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+.boxm3 {
+  font-family: 'Island Moments', cursive;
+  width: 200px;
+  height: 130px;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+.boxm4 {
+  font-family: 'Island Moments', cursive;
+  width: 300px;
+  height: 30px;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+.boxm5 {
+  font-family: 'Island Moments', cursive;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: navy;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
 }
 /*# sourceMappingURL=main.css.map */

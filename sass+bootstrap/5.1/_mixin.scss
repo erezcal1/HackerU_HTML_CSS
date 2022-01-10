@@ -1,0 +1,33 @@
+@mixin boxm($width:200px, $height:200px, $bgc:navy) {
+  font-family: 'Island Moments', cursive;
+  width: $width;
+  height: $height;
+  margin: 20px;
+  border: 5px solid black;
+  background-color: $bgc;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 2.5;
+  font-size: 2em;
+}
+
+.boxm1 {
+  @include boxm(100px, 200px, hotpink);
+}
+
+.boxm2 {
+  @include boxm(350px, 70px, magenta);
+}
+
+.boxm3 {
+  @include boxm(200px, 130px, purple);
+}
+
+.boxm4 {
+  @include boxm(300px, 30px, tomato);
+}
+
+.boxm5 {
+  @include boxm();
+}

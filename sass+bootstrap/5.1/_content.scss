@@ -1,3 +1,14 @@
+p {
+  font-size: 1em;
+  text-align: justify;
+  padding: $base_Padding;
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 1px dashed #000;
+  width: $base_Width;
+  background-color: #ccc;
+}
+
 header {
   background-color: $base_Background_Color;
   padding: $base_Padding;

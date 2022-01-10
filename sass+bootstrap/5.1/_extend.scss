@@ -1,7 +1,9 @@
+$newBgc: navy;
+
 button {
   margin: 10px;
   font-size: 1.5rem;
-  background-color: hotpink;
+  background-color: $newBgc;
   color: black;
   border-radius: 8px;
   outline: 0;
@@ -10,6 +12,7 @@ button {
 
   &:hover {
     box-shadow: inset 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: lighten($newBgc, 30%);
   }
 }
 

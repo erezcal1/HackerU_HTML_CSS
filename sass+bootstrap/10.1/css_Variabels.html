@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Variables</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bgc: crimson;
+      --t_Color: #cf0;
+      --fz: 1.3em;
+    }
+
+    header,
+    section {
+      width: 80vw;
+      margin: 0 auto;
+      background-color: var(--bgc);
+      color: var(--t_Color);
+      font-size: var(--fz);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>The Header</h1>
+  </header>
+  <section>
+    <h2>The section</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias explicabo dolorem necessitatibus libero iste,
+      commodi quasi eius beatae ullam id quo molestias, accusantium earum debitis quae deserunt magnam illo perspiciatis
+      repellat cumque distinctio eaque. Eveniet sed accusantium optio dolore, hic error delectus adipisci dolores,
+      molestias tempore fugiat expedita enim maiores autem necessitatibus voluptatibus magni placeat dolorem iste,
+      ratione totam voluptas harum. Ipsam nostrum possimus, officia dolore quisquam deserunt obcaecati omnis adipisci
+      doloribus? Eos atque eius numquam incidunt ea nobis voluptas at sed corporis. Iure, in voluptatum? Fugit
+      reprehenderit debitis, aut, architecto accusantium sunt quidem aspernatur nihil modi totam nesciunt?</p>
+  </section>
+
+</body>
+
+</html>
