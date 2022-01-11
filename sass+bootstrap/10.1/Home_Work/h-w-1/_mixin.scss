@@ -1,0 +1,37 @@
+@mixin for-phone-only {
+  @media (min-width: 0px) {
+    background-color: lightsalmon;
+  }
+}
+
+@mixin for-tablet-portrait-up {
+  @media (min-width: 768px) {
+    background-color: rgb(81, 88, 88);
+  }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: 992px) {
+    background-color: rgb(34, 58, 58);
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    background-color: rgb(102, 102, 54);
+  }
+}
+
+@mixin for-big-desktop-up {
+  @media (min-width: 1400px) {
+    background-color: rgb(80, 134, 151);
+  }
+}
+
+.header_Title {
+  @include for-phone-only;
+  @include for-tablet-portrait-up;
+  @include for-tablet-landscape-up;
+  @include for-desktop-up;
+  @include for-big-desktop-up;
+}

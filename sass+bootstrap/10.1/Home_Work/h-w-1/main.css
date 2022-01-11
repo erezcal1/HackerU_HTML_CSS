@@ -1,0 +1,30 @@
+@media (min-width: 0px) {
+  .header_Title {
+    background-color: lightsalmon;
+  }
+}
+
+@media (min-width: 768px) {
+  .header_Title {
+    background-color: #515858;
+  }
+}
+
+@media (min-width: 992px) {
+  .header_Title {
+    background-color: #223a3a;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header_Title {
+    background-color: #666636;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header_Title {
+    background-color: #508697;
+  }
+}
+/*# sourceMappingURL=main.css.map */
