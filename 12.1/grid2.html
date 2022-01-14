@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid 2</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 200px);
+      gap: 15px;
+
+    }
+
+    .item {
+      font-size: 1.1em;
+      text-align: center;
+      color: #fff;
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .item1 {
+      background-color: red;
+    }
+
+    .item2 {
+      background-color: green;
+    }
+
+    .item3 {
+      background-color: blue;
+    }
+
+    .item4 {
+      background-color: orange;
+    }
+
+    .item5 {
+      background-color: purple;
+    }
+
+    .item6 {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item item1">red</div>
+    <div class="item item2">green</div>
+    <div class="item item3">blue</div>
+    <div class="item item4">orange</div>
+    <div class="item item5">purple</div>
+    <div class="item item6">hotpink</div>
+  </div>
+</body>
+
+</html>
