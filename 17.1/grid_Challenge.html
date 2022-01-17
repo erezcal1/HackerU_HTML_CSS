@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Challenge</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 200px);
+      gap: 15px;
+
+    }
+
+    .item {
+      font-size: 1.1em;
+      text-align: center;
+      color: #fff;
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header {
+      background-color: rgb(0, 0, 0);
+      grid-column: 1/5;
+      grid-row: 1/2;
+    }
+
+    .box1 {
+      background-color: rgb(0, 0, 0);
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .box2 {
+      background-color: rgb(0, 0, 0);
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    .box3 {
+      background-color: rgb(0, 0, 0);
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+
+    .main {
+      background-color: rgb(0, 0, 0);
+      grid-column: 1/4;
+      grid-row: 3/4;
+    }
+
+    .aside {
+      background-color: rgb(0, 0, 0);
+      grid-column: 4/5;
+      grid-row: 2/4;
+    }
+
+    .footer {
+      background-color: rgb(0, 0, 0);
+      grid-column: 1/5;
+      grid-row: 4/5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item header">header</div>
+    <div class="item box1">box1</div>
+    <div class="item box2">box2</div>
+    <div class="item box3">box3</div>
+    <div class="item main">main</div>
+    <div class="item aside">aside</div>
+    <div class="item footer">footer</div>
+  </div>
+</body>
+
+</html>

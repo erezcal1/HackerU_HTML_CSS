@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area Names</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 100px 200px 300px 100px;
+
+      grid-template-areas:
+        "header header header header "
+        "box1 box2 box3 aside"
+        "main main main aside "
+        "footer footer footer footer";
+      gap: 15px;
+
+    }
+
+    .item {
+      font-size: 1.1em;
+      text-align: center;
+      color: #fff;
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header {
+      grid-area: header;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .box1 {
+      grid-area: box1;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .box2 {
+      grid-area: box2;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .box3 {
+      grid-area: box3;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .main {
+      grid-area: main;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .aside {
+      grid-area: aside;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .footer {
+      grid-area: footer;
+      background-color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item header">header</div>
+    <div class="item box1">box1</div>
+    <div class="item box2">box2</div>
+    <div class="item box3">box3</div>
+    <div class="item main">main</div>
+    <div class="item aside">aside</div>
+    <div class="item footer">footer</div>
+  </div>
+</body>
+
+</html>
