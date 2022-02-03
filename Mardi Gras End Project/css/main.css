@@ -7,9 +7,6 @@ body {
   font-family: 'Pattaya';
   font-family: 'Henny Penny';
   font-family: 'Roboto', sans-serif;
-  /* height: 200px; */
-  /* background-color: red; */
-  /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #9453A6, #8cBF3F, #f2cc0f, #f2f2f2, #9453A6);
 }
 
