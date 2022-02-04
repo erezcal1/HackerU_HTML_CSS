@@ -1,37 +1,42 @@
-#main_Grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
+@media (min-width: 575px) {
+  #main_Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
 
-  grid-template-areas:
-    "schedule history"
-    "schedule traditions"
-    "schedule mayor";
-  gap: 1em;
+    grid-template-areas:
+      "schedule history"
+      "schedule traditions"
+      "schedule mayor";
+    gap: 1em;
+  }
+
+  .item {
+    border: 3px solid #9453A6;
+  }
+
+  #schedule {
+    margin: 1em 0;
+    grid-area: schedule;
+  }
+
+  #history {
+    grid-area: history;
+    margin-top: 1em;
+  }
+
+  #traditions {
+    grid-area: traditions;
+  }
+
+  #mayor {
+    grid-area: mayor;
+    margin-bottom: 1em;
+  }
 }
 
 #schedule {
   margin: 1em 0;
-  grid-area: schedule;
-  background-color: #92718A;
-  /* height: 500px; */
-}
-
-#history {
-  grid-area: history;
-  margin-top: 1em;
-  background-color: #4d2843;
-}
-
-#traditions {
-  grid-area: traditions;
-  background-color: #92718A;
-}
-
-#mayor {
-  grid-area: mayor;
-  margin-bottom: 1em;
-  background-color: #72205c;
 }
 
 .item {
@@ -60,9 +65,11 @@ table tbody {
 .item h2,
 .item h3 {
   font-family: 'Pattaya', sans-serif;
+  color: #000;
   /* font-size: 2em; */
 }
 
 .item p {
   font-family: 'Roboto', sans-serif;
+  color: #000;
 }
