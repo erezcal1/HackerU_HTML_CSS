@@ -148,6 +148,12 @@ h2 {
   border-radius: 50%;
 }
 
+
+
+main img {
+  border: 4px dashed purple;
+}
+
 @media (min-width:900px) {
   .move_Fast {
     display: none;
@@ -187,6 +193,14 @@ h2 {
   .back_to_top img {
     position: absolute;
     right: 15em;
+  }
+
+  .first_Img_Row,
+  .second_Img_Row,
+  .third_Img_Row {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
   }
 }
 

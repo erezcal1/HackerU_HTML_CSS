@@ -116,26 +116,26 @@ a {
 }
 
 .facebook {
-  background-image: url('/Mardi Gras End Project/images/facebook.png');
+  background-image: url('../images/main_Images/FaceBook.png');
   background-size: cover;
 }
 
 .twitter {
-  background-image: url('/Mardi Gras End Project/images/twitter.png');
+  background-image: url('../images/main_Images/Twitter.png');
   background-size: 110%;
 }
 
 .instagram {
-  background-image: url('/Mardi Gras End Project/images/instagram.png');
+  background-image: url('/images/main_Images/Instagram.png');
   background-size: cover;
 }
 
 .youtube {
-  background-image: url('/Mardi Gras End Project/images/youTube.jpg');
+  background-image: url('/images/main_Images/youTube.jpg');
   background-size: cover;
 }
 
 .trip_Advisor {
-  background-image: url('/Mardi Gras End Project/images/tripadvisor.png');
+  background-image: url('/images/main_Images/tripAdvisor.png');
   background-size: cover;
 }
