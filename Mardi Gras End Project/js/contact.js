@@ -1,4 +1,4 @@
-
+//Form Validation
 document.querySelector('#btn').addEventListener('click', () => {
   const first_Name = document.getElementById('first_Name');
   const last_Name = document.getElementById('last_Name');
@@ -12,7 +12,7 @@ document.querySelector('#btn').addEventListener('click', () => {
     last_Name.focus();
     return
   }
-  if(email.value === '' || email.value.indexOf('@') ==-1 || email.value.indexOf('.') ==-1) {
+  if (email.value === '' || email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
     email.focus();
     return;
   }

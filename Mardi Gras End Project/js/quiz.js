@@ -1,3 +1,4 @@
+//Quiz Score Calculator
 document.getElementById("questions").onsubmit = function () {
 
    let external_Css = parseInt(document.querySelector('input[name = "external_Css"]:checked').value);
