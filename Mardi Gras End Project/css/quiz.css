@@ -26,3 +26,7 @@
   font-size: 1.5em;
   margin: 1em auto;
 }
+
+.question label {
+  margin: 5px;
+}
